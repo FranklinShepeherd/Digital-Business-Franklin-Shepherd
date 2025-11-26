@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FreelanceID – Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<nav>
+  <div class="logo">FreelanceID</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="jobs.html">Find Jobs</a></li>
+    <li><a href="pricing.html">Pricing</a></li>
+    <li><a href="contact.html">Support</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+
+  <h1>Learning Dashboard</h1><br>
+
+  <div class="tabs">
+    <div class="tab-btn" onclick="openTab(event, 'progress')">My Progress</div>
+    <div class="tab-btn" onclick="openTab(event, 'portfolio')">My Portfolio</div>
+    <div class="tab-btn" onclick="openTab(event, 'verify')">ID Verification</div>
+  </div>
+
+  <div id="progress" class="tab-content card">
+    <h2>Your Skill Progress</h2>
+    <p>Badges and completion indicators go here.</p>
+  </div>
+
+  <div id="portfolio" class="tab-content card">
+    <h2>Your Portfolio</h2>
+    <p>Upload images, links, and work samples.</p>
+    <input type="file">
+  </div>
+
+  <div id="verify" class="tab-content card">
+    <h2>Identity Verification</h2>
+    <p>Upload verification documents below:</p>
+    <input type="file">
+    <button>Submit</button>
+  </div>
+
+</div>
+
+<footer>
+  <p>FreelanceID – Verified. Connected. Trusted.</p>
+</footer>
+
+</body>
+</html>
+
+
